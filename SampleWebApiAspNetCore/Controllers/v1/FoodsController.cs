@@ -39,6 +39,7 @@ namespace SampleWebApiAspNetCore.v1.Controllers
 
             var allItemCount = _foodRepository.Count();
 
+
             var paginationMetadata = new
             {
                 totalCount = allItemCount,
